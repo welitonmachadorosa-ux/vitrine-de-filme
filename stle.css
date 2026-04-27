@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+/* Header & Navbar*/
+header {
+    background-color: #000;
+    padding: 1rem 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    color: #e50914;/*Vermelho estilo netflix */
+}
+
+#searchInput {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+/* hero section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: -moz-linear-gradient(rgba(0,0,0,0,.7), rgba(0,0,0,0.7));
+}
